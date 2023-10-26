@@ -38,30 +38,14 @@ class Home extends Component{
     }
     componentDidMount(){
         
-      window.particlesJS("particles-js",particleJSON );
+    //   window.particlesJS("particles-js",particleJSON );
       
     }
     render(){
         return(
             <div className="back">
                 <div id="particles-js"></div>
-              <div class="box title">
-                    <div className="container-fluid solid">
-                        <ul className="links">
-                            <li onClick={()=>window.open("https://github.com/arnabuchiha/Algorithm-Visualizer","_blank")}>
-                                <i>
-                                    <Github/>
-                                </i>
-                            </li>
-                            <li onClick={()=>window.open("https://www.linkedin.com/in/funky-poseidon/","_blank")}>
-                                <i>
-                                    <LinkedIn/>
-                                </i>
-                            </li>
-                        </ul>
-                        
-                    </div>
-                </div>
+              
                     
                 <h1 className="main-title center">
                             <div className="logo">
