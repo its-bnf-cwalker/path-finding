@@ -27,11 +27,6 @@ class Home extends Component{
                     name:"Pathfinding",
                     imgUrl:graph,
                     link:"/pathfind"
-                },
-                {
-                    name:"ConvexHull",
-                    imgUrl:convex,
-                    link:"/convexhull"
                 }
             ]
         }
